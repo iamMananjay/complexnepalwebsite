@@ -1,0 +1,938 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Mono:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    margin: 0px;
+}
+
+
+
+/*Header start*/
+.mainsection{
+    display: grid;
+    grid-template-columns: 50% auto;
+   
+   
+}
+.leftsection{
+    background-color: #2b6772;
+    padding: 0.8em 3em;
+    
+}
+.leftsection h1{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 0;
+}
+.mainsection a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.rightsection{
+    background-color: #52ab98;
+    text-align: right;
+    padding-top: 1.8em;
+    padding-right: 3em;
+    
+}
+.rightsection .fab{
+    margin-right: 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.rightsection .fas{
+    margin-right: 1em;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+/*bodysection*/
+.bodyhead{
+    padding: 1em 12.5em;
+    
+}
+.bodyhead h2{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-right: 1em;
+    margin-left: 0.1em;
+}
+.bodyhead li{
+    display: inline-block;
+    margin: 0 1.4em;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.bodybtn a{
+    color: black;
+    text-decoration: none;
+}
+.bodybtn a:hover{
+    background-color: black;
+    color: white;
+}
+.bodyhead li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.bodyhead ul li :hover{
+   color:  #ed7966;
+   text-decoration: overline;
+   text-decoration-thickness: 3px;
+}
+.btli{
+    background-color: black;
+    color: white;
+    padding: 0.5em  1em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 1.2em;
+    cursor: pointer;
+}
+.btli a{
+    text-decoration: none;
+    color: white;
+}
+.btli:hover{
+    background-color:#ed7966;
+    color: white;
+}
+.bodyhead .fas:hover{
+    color: #ed7966;
+}
+.bodyhead .fas{
+    font-size: 1.5em;
+    margin-left: 1.2em;
+    padding: 0;
+    color: black;
+    
+}
+.mainbody img{
+    width: 100%;
+}
+.internalbody{
+    margin-bottom: 1em;
+    position: relative;
+    padding:0  3em ;
+}
+.containerbody{
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding: 0 4em;
+}
+.firstbody{
+    padding-top: 4.2em;
+    margin-right: 0.5em;
+}
+.containerbody h3{
+    font-size: 1.5em;
+}
+.containerbody p{
+    font-size: 1.2em;
+    
+}
+.containerbody .bodybtn{
+    padding: 0.6em 1.6em;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 25px;
+    background-color: white;
+}
+.bodybtn:hover{
+    background-color: black;
+    color: white;
+}
+.arrow{
+    position: absolute;
+    top: 41.3%;
+    background-color: white;
+    border: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.next{
+    right: 0;
+    margin-right: 3em;
+}
+.containerbody{
+    display: none;
+}
+
+/*jordan page*/
+.imgmain{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-column-gap:1em;
+    padding: 0 13em; 
+    margin-bottom: 1em; 
+    margin-top: 1em; 
+}
+.imgmain p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+}
+.imgmain a{
+    text-decoration: none;
+    color: black;
+}
+.imgmain a:hover{
+    color:#ed7966 ;
+}
+.firstimg img{
+    width: 343px;
+    height: 304.817px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.secondimg img{
+    width: 343px;
+    height: 304.817px;
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.thirdimg img{
+    width: 343px;
+    height: 304.817px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.imgmain img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.jordan{  
+   text-decoration: overline;
+   text-decoration-thickness: 3px;
+}
+.jordan .innerjordan {
+    color:  #ed7966;
+}
+
+/*lates release*/
+.imgmain{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-column-gap:1em;
+    padding: 0 13em; 
+    margin-bottom: 1em; 
+    margin-top: 1em; 
+}
+.firstrelease{
+    display: flex;
+    padding: 0.6em 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    justify-content:center;
+}
+.firstrelease .fas{
+    font-size: 1.4em;
+    margin-right: 1em;
+    margin-top:0.12em;
+}
+.imgmain p{
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.parelase{
+    background-color: whitesmoke;
+    color: black;
+    margin: -1.3em 0 0 0;
+    padding: 0 0 .8em 0;
+    text-align: center;
+
+}
+
+
+.secondrelase:hover{
+    filter: brightness(50%);
+}
+
+
+.firstrelease h2{
+    margin: 0;
+    padding: 0;
+}
+
+.imgmain a{
+    text-decoration: none;
+    color: black;
+}
+.imgmain a:hover{
+    color:#ed7966 ;
+}
+.fimg img{
+    width: 343px;
+    height: 290px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.simg img{
+    width: 343px;
+    height: 290px;
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.timg img{
+    width: 343px;
+    height: 290px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.imgmain img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.releasebt{
+    background-color: #ed7966 ;
+}
+.releasebt .btlatest{
+    color:white ;
+}
+
+
+/*login and regester page*/
+.maindiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1em 15em;
+    text-align: center;
+}
+.leftlogin{
+    text-align: left;
+    padding-top: 3.8em;
+}
+.text{
+    margin-left: 0em;
+    padding: 0.8em 1em;
+    margin-bottom: 0.7em;
+    width: 65%;
+}
+
+.maindiv .forgot{
+    margin-left: 6.5em;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+.login{
+    margin-left: 5.5em;
+    padding: 0.6em 1.6em;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 25px;
+    background-color: white;
+    width: 35%;
+    background-color: #2b6772;
+    color: white;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.leftlogin h1{
+    color: #2b6772;
+}
+.member{
+    margin-left: 4em;
+}
+.maindiv a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.9em;
+    
+}
+.forgot a:hover{
+    color:#ed7966 ;
+}
+
+.rightlogin{
+    text-align: center;
+    background-image: url(../Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 22px;
+}
+.rightlogin h1{
+    padding-top: 4.6em;
+   
+}
+.leftlogin span a:hover{
+    color: #ed7966;
+}
+
+.firstmainbody{
+    display: flex;
+    padding: 1em 0 1em 15em ;
+}
+.firstmainbody a{
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+.firstmainbody a:hover{
+    color: #ed7966;
+}
+.firsth2{
+    margin: 0;
+    padding: 0;
+}
+.firsth2 h2{
+    padding: 0;
+    margin: 0 0 0 0;
+}
+.secondinput{
+    padding: 0 0 0 0;
+    margin: 0 2em 0 2.3em;
+    
+}
+.secondinput input[type="text"]{
+    padding: 0.6em 1em;
+    margin: 0 0;
+    width: 520px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.secondinput .fas{
+    padding: 0 0 0 0.5em;
+    margin: 0 0 -1.5em 0;
+    font-size: 1.3em;
+}
+
+.secondmainbody{
+    padding: 1em 14.7em;
+}
+.secondmainbody ul{
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 1.1em;
+}
+.secondmainbody li{
+    list-style-type: none;
+    margin:0  3.2em;
+    
+}
+.secondmainbody a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.secondmainbody ul li a:hover{
+    color:#ed7966;
+   text-decoration: overline;
+   text-decoration-thickness: 3px;
+}
+.firstmainbody .btli{
+    margin-right:1.8em ;
+}
+.firstmainbody .fa-user{
+    font-size: 1.5em;
+    color: black;
+    padding: 0.4em 0 0 0;
+    margin:0 1.5em 0 0;
+    
+}
+.firstmainbody .fa-user{
+    color: #ed7966;
+    
+}
+.firstmainbody .fa-user:hover{
+    color: #ed7966;
+    
+}
+
+/*addtoacart*/
+.gotologin .c{
+    color: black;
+}
+.maincart{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 10.9em 0 13em; 
+    margin-bottom: 1em; 
+    margin-top: 1em; 
+}
+.firstcart{
+    border:1px solid rgb(0, 0, 0,0.2);
+    border-right: none;
+    padding: 0;
+    margin: 0;
+    height: 540px;
+}
+
+.firstcart img{
+    width: 100%;
+    height: 540px;
+
+    
+}
+.secondcart{
+    width: 100%;
+    height: 540px;
+    display: grid;
+    align-content: space-between;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    margin: 0;
+    padding: 0;  
+}
+.pcart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    padding-top:2em ;
+    font-weight: bold;
+    font-size: 1.11em;
+
+}
+.controlcart{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.leftcart{
+    border: 1px solid rgb(0, 0, 0,0.2);
+    text-align: center;
+    padding: 1.5em 0 ;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.btnbuy:hover{
+    text-decoration: underline;
+}
+.btnbuy{
+    border: none;
+    background-color: unset;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.cart{
+    border: none;
+    background-color: unset;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.cart:hover{
+    text-decoration: underline;
+}
+.rightcart{
+    border: 1px solid rgb(0, 0, 0,0.2);
+    text-align: center;
+    padding: 1.5em 0 ;
+    border-bottom: none;
+    border-right: none;
+}
+.productdetail h6{
+    letter-spacing: 0.2em;
+    margin-top: 3em;
+}
+.productdetail{
+    padding: 0 25em;
+    text-align: center;
+}
+.productdetail h3{
+    margin-top: 1.9em;
+    margin-bottom: 1.4em;
+}
+.linediv{
+    padding: 0 10.9em 0 13em; 
+    margin-bottom: 1em;
+
+}
+
+/*create page*/
+.creatediv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1em 13em 1em 15em;
+    text-align: center;
+}
+.createright h1{
+    color: #2b6772;
+}
+.thirdbtn a{
+    color: white;
+}
+.thirdbtn a:hover{
+    color: white;
+}
+
+
+.createright{
+    text-align: center;
+    padding-top: 5.4em;
+    padding-left: 0.1em;
+    
+}
+.tt{
+    margin-left: 0em;
+    padding: 0.8em 1em;
+    margin-bottom: 0.9em;
+    width: 65%;
+}
+
+.signup{
+    padding: 0.6em 1.6em;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 25px;
+    background-color: white;
+    width: 35%;
+    background-color: #2b6772;
+    color: white;
+    margin-bottom: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.createlogin{
+    text-align: center;
+    background-image: url(../Images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    height: 500px;
+    width: 97%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 22px;
+}
+.createlogin h1{
+    padding-top: 4.6em;  
+}
+
+
+
+
+/*about section*/
+.mainabout{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.sneaker{
+    width: 100%;
+}
+.firstabout{
+    padding: 3em 2em 3.3em 3em;
+}
+.lastabout h1{
+    font-size: 3em;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-decoration-color:#2b6772 ;
+    margin-bottom: 1.3em;
+    text-underline-offset: 10px;
+}
+.lastabout{
+    padding: 14em 0 0 2em;
+}
+
+
+
+
+
+/*contact*/
+.maincontact{
+    padding: 3em 10em 3.3em 10em;
+    
+}
+.maincontact h1{
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-decoration-color:#2b6772 ;
+    text-underline-offset: 10px;
+    margin: 0;
+    padding: 0;
+}
+.message{
+    font-size: 1.5em;
+    text-align: center;
+}
+.innercontact{
+    display: grid;
+    grid-template-columns: 50% auto;
+    margin: 2em 0 0 0;
+    padding: 0;
+}
+.maincontact input[type="text"]{
+    width: 79%;
+    margin-bottom: 1.2em;
+    padding: 0.6em;
+    font-size: 0.9em;
+    border-radius: 0.4em;
+    
+}
+
+.maincontact input[type="email"]{
+    width: 79%;
+    margin-bottom: 1.2em;
+    padding: 0.6em;
+    font-size: 0.9em;
+    border-radius: 0.4em;
+}
+.maincontact textarea{
+    width: 79%;
+    margin-bottom: 1.2em;
+    padding: 0.6em;
+    font-size: 0.9em;
+    border-radius: 0.4em;
+}
+.btn-section{
+   width: 35%;
+   padding: 0.6em;
+   border-radius: 0.4em;
+   color: white;
+   background-color:#2b6772;
+   margin-left: 10em;
+}
+.rightcontact{
+    margin-left: 2em;
+    margin-top: 3.2em;
+}
+.rightcontact hr{
+    font-weight: bold; 
+}
+.firstcontact{
+    display: flex;
+    justify-content: space-between;
+}
+.rightcontact .fas{
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
+}
+.firstcontact p{
+    margin: 0 15em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+.secondcontact{
+    display: flex;
+    justify-content: space-between;
+
+}
+.secondcontact .fas{
+    font-size: 1.6em;
+}
+.secondcontact p{
+    margin: 0 14.8em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+.thirdcontact{
+    display: flex;
+    justify-content: space-between;
+}
+.thirdcontact p{
+    margin: 0 10.5em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+.contactfooter{
+    display: grid;
+    grid-template-columns: 70% 5% 25%;
+    margin-bottom: 2em;
+    
+}
+.firstcolor{
+    background-color:#2b6772 ;
+}
+.firstcolor h2 {
+    text-align: right;
+    padding-right: 7.5em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 1.5em;
+}
+.firstcolor .fa-facebook{
+    font-size: 1.7em;
+    margin-left: 24em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+.firstcolor .fa-instagram{
+    font-size: 1.7em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+.firstcolor .fa-envelope-open-text{
+    font-size: 1.7em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+.firstcolor .fa-twitter-square{
+    font-size: 1.7em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+.firstcolor a{
+    
+    color: white;
+}
+.secondcolor{
+    background-color:#c8d8e4 ;
+}
+.thirdcolor{
+    background-color: #52ab98;
+}
+
+
+
+
+
+/*Footer*/
+.mainfooter{
+    background-color: black;
+    padding-bottom: 0.7em;
+}
+.internalfooter{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding-left: 14em;
+    padding-right: 14em;
+
+    color: white;
+    padding-top: 2.5em;
+    padding-bottom: 3.4em;
+}
+.firstfooter h1{
+    font-size: 2.5em;
+    padding: 0px;
+    margin: 0;
+}
+.firstfooter h1 a{
+    color: white;
+    text-decoration: none;
+}
+.secondfooter ul li{
+    margin: 0.5em 0 0 0;
+    padding: 0px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.secondfooter a{
+    color: white;
+    text-decoration: none;
+}
+.secondfooter ul :hover{
+    color: #ed7966;
+}
+.secondfooter h3{
+    margin: 0px;
+    padding: 0px;
+}
+.secondfooter ul{
+    margin: 1em 0 0 -1.2em;
+    padding: 0;
+}
+.secondfooter{
+    text-align: center;
+}
+.thirdfooter h3{
+    padding: 0;
+    margin: 0;
+}
+.thirdfooter{
+    text-align: center;
+}
+.thirdfooter .fab{
+    margin-top: 1em;
+    margin-left: 0.4em;
+    margin-right: 0.5em;
+    font-size: 1.5em;
+    
+}
+.thirdfooter .fas{
+    margin-top: 1em;
+    margin-left: 0.4em;
+    margin-right: 0.5em;
+    font-size: 1.5em;
+}
+.thirdfooter a{
+    color: white;  
+}
+.lastfooter{
+    color: white;
+    text-align: center;
+    font-size: 0.8em; 
+}
+.fab:hover{
+    color: #c8d8e4;
+}
+.fas:hover{
+    color: #c8d8e4;
+
+}
+
+
+
+
+
+
